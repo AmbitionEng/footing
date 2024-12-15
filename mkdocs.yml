@@ -51,8 +51,8 @@ markdown_extensions:
 
 theme:
   name: material
-  logo: static/logo.png
-  favicon: static/logo.png
+  logo: static/dark_logo.png
+  favicon: static/light_logo.png
   features:
     - content.code.copy
     - navigation.footer
