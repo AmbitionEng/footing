@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 (2024-12-15)
+
+#### Changes
+
+  - Changed project ownership to `AmbitionEng` by [@wesleykendall](https://github.com/wesleykendall) in [#12](https://github.com/Opus10/footing/pull/13).
+
 ## 1.0.0 (2024-11-01)
 
 #### Changes
