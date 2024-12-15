@@ -81,7 +81,6 @@ Similar to `footing update`, you will need to review the changes, resolve confli
 
     Switching templates does not trigger any [cookiecutter hooks](http://cookiecutter.readthedocs.io/en/latest/advanced/hooks.html). Users must manually do any project setup and must similarly do any project teardown that might have resulted from the previously template. The authors have intentionally left out this convenience for now since footing currently has no way to spin down projects.
 
-
 ## Compatibility
 
 `footing` is compatible with Python 3.9 - 3.13.

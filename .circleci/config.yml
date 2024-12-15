@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  opus10:
+  ambitioneng:
     executors:
       python:
         working_directory: /code
@@ -28,12 +28,12 @@ orbs:
 jobs:
   test:
     executor:
-      name: opus10/python
+      name: ambitioneng/python
     steps:
-      - opus10/test
+      - ambitioneng/test
 
   lint:
-    executor: opus10/python
+    executor: ambitioneng/python
     steps:
       - checkout
       - restore_cache:
@@ -42,7 +42,7 @@ jobs:
       - run: make lint
 
   type_check:
-    executor: opus10/python
+    executor: ambitioneng/python
     steps:
       - checkout
       - restore_cache:
@@ -51,7 +51,7 @@ jobs:
       - run: make type-check || true
 
   deploy:
-    executor: opus10/python
+    executor: ambitioneng/python
     steps:
       - checkout
       - run: ssh-add -D
