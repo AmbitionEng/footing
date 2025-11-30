@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0 (2025-11-30)
+
+#### Changes
+
+  - Drop Python 3.9 support, add Python 3.14 support by [@wesleykendall](https://github.com/wesleykendall) in [#14](https://github.com/AmbitionEng/footing/pull/14).
+
 ## 1.0.1 (2024-12-15)
 
 #### Changes
