@@ -237,7 +237,7 @@ def test_update_w_out_of_date(
         ),
         mocker.call("git checkout _footing_update", stderr=subprocess.DEVNULL),
         mocker.call(
-            "git merge -s ours --no-edit --allow-unrelated-histories " "_footing_update_temp",
+            "git merge -s ours --no-edit --allow-unrelated-histories _footing_update_temp",
             stderr=subprocess.DEVNULL,
         ),
         mocker.call("git checkout _footing_update_temp", stderr=subprocess.DEVNULL),

@@ -40,7 +40,7 @@ def test_cd(fs):
 def test_read_footing_config(fs):
     """Tests footing.utils.read_footing_config with a fake file system"""
     footing_config_yaml = (
-        "_version: version\n" "repo_name: repo_name\n" "_extensions: [jinja2_time.TimeExtension]\n"
+        "_version: version\nrepo_name: repo_name\n_extensions: [jinja2_time.TimeExtension]\n"
     )
     fs.create_file("footing.yaml", contents=footing_config_yaml)
 

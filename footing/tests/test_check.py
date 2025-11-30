@@ -134,7 +134,7 @@ def test_has_env_vars(envvar_names, check_envvar_names, mocker):
     """Tests footing.check.has_circleci_api_token"""
     mocker.patch.dict(
         os.environ,
-        {var_name: "value" for var_name in envvar_names},
+        dict.fromkeys(envvar_names, "value"),
         clear=True,
     )
 
