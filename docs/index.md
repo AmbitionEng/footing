@@ -4,4 +4,4 @@ Welcome to the docs for `footing`! It doesn't appear that the author has created
 
 ## Compatibility
 
-`footing` is compatible with Python 3.9 - 3.13.
+`footing` is compatible with Python 3.10 - 3.14.

@@ -2,7 +2,7 @@
 
 ## Compatibility
 
-`footing` is compatible with Python 3.9 - 3.13.
+`footing` is compatible with Python 3.10 - 3.14.
 
 ## Documentation
 
